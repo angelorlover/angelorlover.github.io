@@ -97,10 +97,22 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: minima
-# remote_theme: pages-themes/architect@v0.2.0
-# plugins:
-# - jekyll-remote-theme
+# theme: cactus
+remote_theme: probberechts/hexo-theme-cactus
+plugins:
+- jekyll-remote-theme
+
+nav:
+  home: /
+  about: /about/
+  articles: /archives/
+  projects: http://github.com/angelorlover
+  LINK_NAME: URL
+
+social_links:
+  github: http://github.com/angelorlover
+  twitter: /
+  NAME: /
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
