@@ -97,8 +97,8 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-# theme: cactus
-remote_theme: probberechts/hexo-theme-cactus
+theme: cactus
+# remote_theme: probberechts/hexo-theme-cactus
 plugins:
 - jekyll-remote-theme
 
